@@ -30,6 +30,13 @@ impl Message {
     }
 }
 
+fn plus_one(x: Option<i32>) -> Option<i32> {
+    match x {
+        None => None,
+        Some(i) => Some(i + 1),
+    }
+}
+
 fn main() {
     let home = IpAddr::V4(127, 0, 0, 1);
     let loopback = IpAddr::V6(String::from("::1"));
@@ -44,4 +51,12 @@ fn main() {
     say_hello.call();
     become_red.call();
     quit.call();
+
+    let five = Some(5);
+    let six = plus_one(five);
+    if let Some(i) = six {
+        println!("Five plus one is {}", i);
+    } else {
+        println!("Variable `six` is None (how did this happen?)");
+    }
 }
