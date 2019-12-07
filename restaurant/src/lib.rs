@@ -1,18 +1,6 @@
-mod front_of_house {
-    pub mod hosting {
-        pub fn add_to_waitlist() {}
-
-        fn seat_at_table() {}
-    }
-
-    pub mod serving {
-        fn take_order() {}
-
-        pub fn serve_order() {}
-
-        fn take_payment() {}
-    }
-}
+// we can do this since the file `front_of_house.rs`
+// exists in the same directory
+mod front_of_house;
 
 mod back_of_house {
     fn fix_incorrect_order() {
@@ -42,12 +30,19 @@ mod back_of_house {
     }
 }
 
+// external code importing this library
+// can use hosting due to `pub` keyboard
+pub use crate::front_of_house::hosting;
+
 pub fn eat_at_restaurant() {
     // Absolute path
     // crate::front_of_house::hosting::add_to_waitlist();
 
     // Relative path
-    front_of_house::hosting::add_to_waitlist();
+    // front_of_house::hosting::add_to_waitlist();
+
+    // Relative path with `use`
+    hosting::add_to_waitlist();
 
     // Order a breakfast in the summer with Rye toast
     let mut meal = back_of_house::Breakfast::summer("naan");
