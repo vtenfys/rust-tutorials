@@ -1,3 +1,4 @@
+mod hash_maps;
 mod strings;
 mod vectors;
 
@@ -6,4 +7,7 @@ fn main() {
     println!();
 
     strings::main();
+    println!();
+
+    hash_maps::main();
 }
