@@ -7,4 +7,5 @@ members = [
     "6_enums_playground",
     "7_restaurant",
     "8_collections",
+    "10_generics",
 ]
