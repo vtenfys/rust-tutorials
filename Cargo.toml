@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "2_guessing_game",
+    "4_slicy_strings",
+    "5_structs_playground",
+    "6_enums_playground",
+    "7_restaurant",
+    "8_collections",
+]

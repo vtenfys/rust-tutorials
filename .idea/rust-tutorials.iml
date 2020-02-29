@@ -3,36 +3,37 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/2_guessing_game/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/2_guessing_game/examples" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/2_guessing_game/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/2_guessing_game/benches" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/4_slicy_strings/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/4_slicy_strings/examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/4_slicy_strings/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/4_slicy_strings/benches" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/5_structs_playground/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/5_structs_playground/examples" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/5_structs_playground/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/5_structs_playground/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/2_guessing_game/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_guessing_game/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_guessing_game/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/2_guessing_game/benches" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/6_enums_playground/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/6_enums_playground/examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/6_enums_playground/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/6_enums_playground/benches" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/7_restaurant/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/7_restaurant/examples" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/7_restaurant/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/7_restaurant/benches" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/8_collections/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/8_collections/examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/8_collections/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/8_collections/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/7_restaurant/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7_restaurant/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7_restaurant/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/7_restaurant/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/5_structs_playground/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5_structs_playground/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5_structs_playground/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/5_structs_playground/benches" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/2_guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/4_slicy_strings/target" />
       <excludeFolder url="file://$MODULE_DIR$/5_structs_playground/target" />
       <excludeFolder url="file://$MODULE_DIR$/6_enums_playground/target" />
       <excludeFolder url="file://$MODULE_DIR$/7_restaurant/target" />
       <excludeFolder url="file://$MODULE_DIR$/8_collections/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
